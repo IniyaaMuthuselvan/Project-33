@@ -90,7 +90,7 @@ function setup() {
 
   button2.mouseClicked(drop);
   
-  button1.mouseClicked(drop);
+  button.mouseClicked(drop);
 
   ellipseMode(RADIUS);
 }
