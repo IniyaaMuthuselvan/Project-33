@@ -113,7 +113,7 @@ function draw()
   rope.show();
   rope2.show();
 
-  if(collide(fruit,bunny)==true)
+  if(collide(fruit,bunny,80)==true)
   {
    bunny.changeAnimation('eating');
    remove_rope();
